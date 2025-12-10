@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+}
+
+.header_css{
+    width: 100%;
+    background: #6176F7;
+    padding-top: 20px;
+}
+
+.main_nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.logo {
+    font-family: "PT Serif", serif;
+    font-weight: 800;
+    font-style: italic;
+    width: 106px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 40px;
+    color: #FFC27A;
+}
+
+.e{
+    font-family: "PT Serif", serif;
+    color: #FFFFFF;
+}
+
+.all_page{
+    display: flex;
+    gap: 20px;
+}
+
+.all_page li{
+    list-style: none;
+}
+
+.all_page li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.loginButton{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.locklogin{
+    display: flex;
+    align-items: center;
+}
+
+.lockImage{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.loginButton a{
+   color: white;
+   text-decoration: none;
+}
+
+.buttonleft{
+    margin-left: 24px;
+    padding: 12px 24px;
+    background: linear-gradient(to bottom, #FFC27A, #FFA337);
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.hero-section{
+    width: 100%;
+    height: 900px;
+    background: #6176F7;
+    position: relative;
+    overflow: hidden;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+
+.hero-content{
+    margin-top: 100px;
+}
+
+.t_head{
+    color: #FFC27A;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.hero-content h1{
+    position: relative;
+    width: 682px;
+    color: #FFFFFF;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 72px;  
+    
+    margin-top: 20px;
+}
+
+.u-line1 {
+    position: relative;
+    display: inline-block;
+    padding-bottom:none ; 
+}
+.u-line1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;  
+    width: 100%;
+    height: 10.5px;   
+    background: url("image_png/Vector\ 1.png") no-repeat center;
+    background-size: contain;
+    
+}
+
+.u-line2 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.u-line2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 10.5px;
+    background: url("image_png/Vector\ 2.png") no-repeat center;
+    background-size: contain;
+    pointer-events: none;
+}
+
+.sub_p_text{
+    font-size: 20px;
+    color: #CFD3D6;
+    margin-top: 20px;
+}
+
+
+.search-bar-container{
+    width: 600px;
+    height: 72px;
+    background: white;
+    border-radius: 60px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    filter: drop-shadow(-4px -4px 44px rgba(0,0,0,0.08));
+}
+
+.search-input{
+    flex: 1;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+
+.search-btn{
+    width: 80px;
+    height: 72px;
+    border: none;
+    background: #FFA337;
+    font-size: 32px;
+    color: white;
+    border-radius:  60px 60px ;
+    cursor: pointer;
+}
+
+.hero-image{
+    position: absolute;
+    width: 738px;
+    height: 738px;
+    left: 738px;
+    top: 6px;
+    overflow: visible;
+}
+
+.hero-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+/* Enamul Hasan */
